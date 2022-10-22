@@ -6,7 +6,26 @@ header{
     background-color: var(--primary-color);
 }
 
+header a{
+    text-decoration: none;
+    color: white;
+    padding-right: 1rem;
+}
 
+
+.line{
+    background-color: white;
+    width: 100px;
+    height: 5px;
+    padding: .5rem;
+}
+
+.second .line{
+    background-color: black;
+    width: 100px;
+    height: 5px;
+    padding: .5rem;
+}
 /*.img-avatar{
     width: 80px;
 }
@@ -15,6 +34,45 @@ header{
     margin: auto;
 }*/
 
-section,{
-    padding: 1rem 0;
+section{
+    padding: 2rem 0;
+}
+
+.foot-1{
+    background-color: rgb(58, 84, 109);
+}
+
+.icon-bords{
+    padding: 15px;
+    font-size: small;
+    color: white;
+}
+
+input[type=text]{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgray;
+}
+
+.text-area{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    height: 150px
+}
+
+.foot-2{
+    background-color: rgb(44, 62, 80);
+}
+
+.img-size{
+    width: 200px;
+}
+
+.camb-col{
+    background-color: rgb(26, 188, 156);
+    border: none;
+}
+.about,
+.start-b{
+    background-color: rgb(26, 188, 156);
 }
